@@ -1,9 +1,33 @@
-Item          Mean     Median    First-to-last change                
-                                                                     
-StapleA       111.17   111.75    15.28%                                                  
-OilB          324.83   324.00     3.69%    
-PulseC        205.92   206.00    12.98% 
-SweetnerD     166.75   166.75    19.41
+Mean: 
+
+StapleA       111.17 
+
+OilB          324.83    
+
+PulseC        205.92  
+
+SweetnerD     166.75  
+
+Median:
+
+StapleA       111.75
+
+OilB          324.00
+
+PulseC        206.00
+
+SweetnerD     166.75
+
+% change:
+
+StapleA       15.28
+
+OilB           3.69
+
+PulseC        12.98
+
+SweetnerD     19.41
+
 
 Choice of Statistic: Mean or Median?
 
@@ -20,19 +44,21 @@ I selected Staple A from my Week 2 dataset to examine the effect of an unusually
 
 With the flagged value:
 
-Mean: Rs. 158.71
+Mean: Rs. 160.89
 
 Median: Rs. 112.50
 
 Without the flagged value:
 
-Mean: Rs. 111.26
+Mean: Rs. 111.39
 
 Median: Rs. 112.50
 
 Explanation:
 
-After removing the flagged value, the mean decreased from Rs. 158.71 to Rs. 111.26, while the median remained unchanged at Rs. 112.50. This shows that the unusually high observation had a much greater effect on the mean than on the median. The mean is sensitive to extreme values because it takes every observation into account, whereas the median is less affected by unusually high or low prices. Therefore, the median may provide a more representative measure of the typical price when extreme observations are present.
+When the flagged value of Rs. 1,250 is included, the mean price of Staple A is Rs. 160.89 and the median is Rs. 112.50. After removing the flagged value, the mean decreases to Rs. 111.39, while the median remains unchanged at Rs. 112.50.
+
+This shows that the unusually high value has a significant effect on the mean because the mean uses every observation in its calculation. However, the median is less affected because it depends on the middle value. Therefore, the median provides a more representative measure of the typical price in this case.
 
 
 Referee's Note: Mean vs. Median
